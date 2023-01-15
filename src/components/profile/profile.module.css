@@ -1,0 +1,92 @@
+.profile {
+  justify-content: center;
+  min-width: 280px;
+  max-width: 40%;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(105, 170, 183, 0.475) 5px 15px 25px;
+  border-radius: 2%;
+  background-color: #fff;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar {
+  display: flex;
+  max-width: 40%;
+  border-radius: 50%;
+  border: 2px groove rgba(105, 170, 183, 0.475);
+}
+
+.profileName {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.profileTag,
+.profileLocation {
+  margin: 0.5rem;
+  font-size: 2rem;
+  color: #8a8b8e;
+}
+
+.stats {
+  width: 100%;
+  display: flex;
+  gap: 0.01px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  border-top: 1px solid #d3d5e3;
+  background-color: rgba(241, 241, 241, 0.833);
+  width: calc((100% - 0.02px) / 3);
+}
+
+.stats > li:last-child {
+  border-bottom-right-radius: 5%;
+}
+
+.stats > li:first-child {
+  border-bottom-left-radius: 5%;
+}
+
+.viewsList {
+  border-left: 1px solid #d3d5e3;
+  border-right: 1px solid #d3d5e3;
+}
+
+.followersList {
+  border-radius: 0 0 0 0.5rem;
+}
+
+.likesList {
+  border-radius: 0 0 0.5rem;
+}
+
+.label {
+  padding-bottom: 0.5rem;
+  color: #8a8b8e;
+}
+
+.quantity {
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
